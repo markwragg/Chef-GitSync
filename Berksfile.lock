@@ -1,0 +1,24 @@
+DEPENDENCIES
+  git
+  git-to-disk
+    path: .
+    metadata: true
+
+GRAPH
+  build-essential (3.2.0)
+    seven_zip (>= 0.0.0)
+  chef_handler (1.3.0)
+  dmg (2.3.0)
+  git (4.4.1)
+    build-essential (>= 0.0.0)
+    dmg (>= 0.0.0)
+    windows (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  seven_zip (2.0.0)
+    windows (>= 1.2.2)
+  stash-to-disk-sync (0.1.1)
+  windows (1.39.2)
+    chef_handler (>= 0.0.0)
+  yum (3.10.0)
+  yum-epel (0.6.6)
+    yum (~> 3.10.0)

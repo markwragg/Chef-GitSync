@@ -1,0 +1,22 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+
+platforms:
+  - name: windows-2012r2
+    driver_config:
+      box: mwrock/Windows2012R2
+
+suites:
+  - name: default
+    run_list:
+        - git::windows
+        - git-to-disk::default
+    attributes:
+        git-to-disk:
+          rootpath: "C:\\"
+          repositories: 
+            - "https://github.com/markwragg/Chef-GitSync.git"
