@@ -30,7 +30,7 @@ chef_zero.enabled true
 	"chef_client": {
 		"interval": "1800"
 	},
-	"stash-to-disk-sync": {
+	"git-to-disk": {
 		"rootpath": "\\\\yourdomain.local\\code\\"
 	}
 		

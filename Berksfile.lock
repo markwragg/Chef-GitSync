@@ -16,7 +16,7 @@ GRAPH
     yum-epel (>= 0.0.0)
   seven_zip (2.0.0)
     windows (>= 1.2.2)
-  stash-to-disk-sync (0.1.1)
+  git-to-disk (0.1.1)
   windows (1.39.2)
     chef_handler (>= 0.0.0)
   yum (3.10.0)
